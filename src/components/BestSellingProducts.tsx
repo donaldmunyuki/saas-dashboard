@@ -1,9 +1,9 @@
-import { Filter } from "lucide-react";
+import { Filter, Smartphone, Headphones } from "lucide-react";
 
 const products = [
-  { name: "iPhone 14 Pro Max", price: "$2400 X 3", date: "12 Dec 2022", stock: true, pending: true },
-  { name: "Leotech Bluetooth Headphone", price: "$2400 X 3", date: "8 Dec 2022", stock: true, pending: true },
-  { name: "iPhone 14 Pro Max", price: "$2400 X 3", date: "6 Dec 2022", stock: true, pending: true },
+  { name: "iPhone 14 Pro Max", price: "$2400 X 3", date: "12 Dec 2022", stock: true, pending: true, icon: Smartphone },
+  { name: "Leotech Bluetooth Headphone", price: "$2400 X 3", date: "8 Dec 2022", stock: true, pending: true, icon: Headphones },
+  { name: "iPhone 14 Pro Max", price: "$2400 X 3", date: "6 Dec 2022", stock: true, pending: true, icon: Smartphone },
 ];
 
 export const BestSellingProducts = () => {
