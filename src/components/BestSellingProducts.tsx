@@ -19,8 +19,8 @@ export const BestSellingProducts = () => {
       <div className="space-y-3">
         {products.map((p, i) => (
           <div key={i} className="flex items-center gap-3 rounded-lg border border-border p-3">
-            <div className="h-10 w-10 rounded-lg bg-muted flex items-center justify-center text-xs font-bold text-muted-foreground">
-              📱
+            <div className="h-10 w-10 rounded-lg bg-muted flex items-center justify-center text-muted-foreground">
+              <p.icon size={18} />
             </div>
             <div className="flex-1 min-w-0">
               <p className="text-sm font-medium text-foreground truncate">{p.name}</p>
