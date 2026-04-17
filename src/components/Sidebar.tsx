@@ -94,7 +94,7 @@ export const Sidebar = ({ onClose }: SidebarProps) => {
         <div className="flex flex-col items-center rounded-xl bg-sidebar-hover p-4">
           <Rocket size={40} className="mb-2 text-sidebar-active" />
           <button className="mt-2 w-full rounded-lg bg-sidebar-active py-2.5 text-sm font-semibold text-sidebar-active-fg hover:opacity-90 transition-opacity">
-            🚀 Upgrade to Pro
+            Upgrade to Pro
           </button>
         </div>
       </div>
