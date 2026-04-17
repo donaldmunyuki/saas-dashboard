@@ -37,10 +37,10 @@ export const Sidebar = ({ onClose }: SidebarProps) => {
 
   const linkClass = (path: string) => {
     const active = location.pathname === path;
-    return `flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm font-medium transition-colors ${
+    return `flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm font-medium transition-all ${
       active
-        ? "bg-sidebar-active text-sidebar-active-fg"
-        : "text-sidebar-fg hover:bg-sidebar-hover"
+        ? "liquid-glass-active text-sidebar-active-fg"
+        : "text-sidebar-fg hover:liquid-glass"
     }`;
   };
 
