@@ -25,8 +25,8 @@ export const TopBar = ({ onMenuClick }: TopBarProps) => {
           SD
         </div>
         <div className="hidden sm:block">
-          <p className="text-sm font-semibold text-foreground">S. Datta</p>
-          <p className="text-xs text-muted-foreground">user@email.com</p>
+          <p className="text-sm font-semibold text-foreground">D. Munyuki</p>
+          <p className="text-xs text-muted-foreground">hello@munyuki.co.za</p>
         </div>
       </div>
     </div>
