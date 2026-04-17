@@ -22,7 +22,7 @@ export const TopBar = ({ onMenuClick }: TopBarProps) => {
       </div>
       <div className="flex items-center gap-3">
         <div className="h-9 w-9 rounded-full bg-primary flex items-center justify-center text-primary-foreground text-sm font-semibold">
-          SD
+          DM
         </div>
         <div className="hidden sm:block">
           <p className="text-sm font-semibold text-foreground">D. Munyuki</p>
