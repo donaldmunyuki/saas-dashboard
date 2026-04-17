@@ -37,10 +37,10 @@ export const Sidebar = ({ onClose }: SidebarProps) => {
 
   const linkClass = (path: string) => {
     const active = location.pathname === path;
-    return `flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm font-medium transition-colors ${
+    return `flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm font-medium border border-transparent ${
       active
-        ? "bg-sidebar-active text-sidebar-active-fg"
-        : "text-sidebar-fg hover:bg-sidebar-hover"
+        ? "liquid-glass-active text-sidebar-active-fg"
+        : "text-sidebar-fg liquid-glass-hover"
     }`;
   };
 
@@ -48,7 +48,7 @@ export const Sidebar = ({ onClose }: SidebarProps) => {
     <div className="flex h-full flex-col bg-sidebar-bg sidebar-scrollbar overflow-y-auto">
       {/* Logo */}
       <div className="flex items-center justify-between px-6 py-6">
-        <span className="text-xl font-bold text-sidebar-active-fg">SaasCa.</span>
+        <span className="text-xl font-bold text-sidebar-fg">SaasCa.</span>
         <button onClick={onClose} className="text-sidebar-fg lg:hidden">
           <X size={20} />
         </button>

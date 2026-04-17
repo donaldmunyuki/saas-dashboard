@@ -36,13 +36,13 @@
 
     --radius: 0.75rem;
 
-    --sidebar-bg: 0 0% 25%;
-    --sidebar-fg: 0 0% 85%;
+    --sidebar-bg: 0 0% 100%;
+    --sidebar-fg: 0 0% 10%;
     --sidebar-active: 0 0% 10%;
     --sidebar-active-fg: 0 0% 100%;
-    --sidebar-hover: 0 0% 30%;
-    --sidebar-border: 0 0% 35%;
-    --sidebar-heading: 0 0% 60%;
+    --sidebar-hover: 0 0% 85%;
+    --sidebar-border: 0 0% 90%;
+    --sidebar-heading: 0 0% 45%;
 
     --success: 145 60% 45%;
     --warning: 35 90% 55%;
@@ -73,5 +73,24 @@
   .sidebar-scrollbar::-webkit-scrollbar-thumb {
     background: hsl(var(--sidebar-border));
     border-radius: 2px;
+  }
+
+  .liquid-glass-hover {
+    transition: all 0.2s ease;
+  }
+  .liquid-glass-hover:hover {
+    background: hsl(var(--sidebar-hover) / 0.5);
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    border: 1px solid hsl(0 0% 100% / 0.4);
+    box-shadow: inset 0 1px 0 hsl(0 0% 100% / 0.6), 0 4px 12px hsl(0 0% 0% / 0.08);
+  }
+
+  .liquid-glass-active {
+    background: hsl(var(--sidebar-active) / 0.85);
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    border: 1px solid hsl(0 0% 100% / 0.15);
+    box-shadow: inset 0 1px 0 hsl(0 0% 100% / 0.2), 0 4px 16px hsl(0 0% 0% / 0.25);
   }
 }
