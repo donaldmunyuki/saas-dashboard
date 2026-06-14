@@ -2,7 +2,7 @@
 
 A modern, high-performance e-commerce sales dashboard built with React, TypeScript, and Tailwind CSS. Features real-time analytics, interactive visualizations, and enterprise-grade UI components.
 
-## ✨ Features
+## Features
 
 - **Real-time Analytics Dashboard** - Live sales metrics, revenue tracking, and performance monitoring
 - **Interactive Charts & Visualizations** - Powered by Recharts for comprehensive data visualization
@@ -15,7 +15,7 @@ A modern, high-performance e-commerce sales dashboard built with React, TypeScri
 - **Accessibility First** - WCAG 2.1 compliant UI components
 - **Testing Ready** - Vitest configuration for unit and integration testing
 
-## 🚀 Performance
+## Performance
 
 ### Lighthouse Analysis
 
@@ -39,7 +39,7 @@ A modern, high-performance e-commerce sales dashboard built with React, TypeScri
 - Production builds with tree-shaking enabled
 - CSS-in-JS with Tailwind for minimal runtime overhead
 
-## 📋 Tech Stack
+## Tech Stack
 
 **Frontend Framework**
 - React 18.3.1
@@ -70,7 +70,7 @@ A modern, high-performance e-commerce sales dashboard built with React, TypeScri
 - Vitest 3.2.4
 - TypeScript strict mode
 
-## 📊 Case Study
+## Case Study
 
 ### Challenge
 Develop a performant SaaS dashboard for e-commerce businesses requiring real-time sales analytics, interactive visualizations, and responsive design across all devices.
@@ -124,7 +124,7 @@ Develop a performant SaaS dashboard for e-commerce businesses requiring real-tim
 | Bundle Size (gzipped) | 245KB | 450KB |
 | Mobile Performance | 92/100 | 65/100 |
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 - Node.js 18+
@@ -157,7 +157,7 @@ bun dev
 
 Application runs on http://localhost:8080
 
-## 📦 Build & Deployment
+## Build & Deployment
 
 ### Production Build
 sh
@@ -175,7 +175,7 @@ npm run preview
 sh
 npm run build:dev
 
-## 🧪 Testing
+## Testing
 
 ### Run Tests
 sh
@@ -189,7 +189,7 @@ bun run test
 sh
 npm run test:watch
 
-## 🔍 Code Quality
+## Code Quality
 
 ### Linting
 sh
@@ -214,7 +214,7 @@ project/
 ├── tsconfig.json           # TypeScript configuration
 └── vitest.config.ts        # Vitest configuration
 
-## 🎨 Component Library
+## Component Library
 
 ### Available Components
 - Accordion, Alert Dialog, Avatar, Badge
@@ -239,7 +239,7 @@ export function Dashboard() {
   )
 }
 
-## 🌐 Browser Support
+## Browser Support
 
 - Chrome (latest)
 - Firefox (latest)
@@ -247,20 +247,20 @@ export function Dashboard() {
 - Edge (latest)
 - Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👨‍💻 Author
+## Author
 
 **Donald Munyuki**
 - GitHub: [@donaldmunyuki](https://github.com/donaldmunyuki)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📞 Support
+## Support
 
 For issues, questions, or suggestions, please open a GitHub Issue or contact the maintainer.
 
