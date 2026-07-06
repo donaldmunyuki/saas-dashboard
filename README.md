@@ -2,6 +2,8 @@
 
 A modern, high-performance e-commerce sales dashboard built with React, TypeScript, and Tailwind CSS. Features real-time analytics, interactive visualizations, and enterprise-grade UI components.
 
+![SaaS Dashboard](preview.png)
+
 ## Features
 
 - **Real-time Analytics Dashboard** - Live sales metrics, revenue tracking, and performance monitoring
